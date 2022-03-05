@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">chiro</string>
+    <string name="enter_your_">enter your name</string>
+    <string name="enter_your_departure">enter your departure</string>
+    <string name="i_got_a_vac">I got a vaccination over than 2 times.</string>
+    <string name="i_got_negat">I got negative on Test Kit</string>
+    <string name="submit">SUBMIT</string>
+    <string name="today_with_"><b>Today</b> with you</string>
+    <string name="sanitize_co">Sanitize Counts :</string>
+    <string name="time_left_">Time Left :</string>
+    <string name="people_coun">People Counts : </string>
+    <string name="you_have_to">You have to sanitize your hand \n with soap or sanitizer once an hour to protect you from \n <b>Covid 19</b></string>
+
+
+</resources>

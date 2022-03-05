@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info">
+
+    <TextView
+        android:id="@+id/today_with_"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:text="@string/today_with_"
+        android:textAppearance="@style/today_with_"
+        android:gravity="center_horizontal|top"
+        />
+
+    <View
+        android:id="@+id/infobox"
+        android:layout_width="290dp"
+        android:layout_height="163dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:background="@drawable/infobox" />
+
+    <TextView
+        android:id="@+id/sanitize_count"
+        android:layout_width="183dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="163dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/sanitize_co"
+        android:textAppearance="@style/sanitize_co" />
+
+    <EditText
+        android:id="@+id/count"
+        android:layout_width="65dp"
+        android:layout_height="34dp"
+        android:layout_toEndOf="@+id/sanitize_count"
+        android:layout_marginTop="163dp"
+        android:gravity="center"
+        android:background="@drawable/inputbox" />
+
+    <TextView
+        android:id="@+id/time_left_"
+        android:layout_width="183dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="207dp"
+        android:text="@string/time_left_"
+        android:textAppearance="@style/time_left_"
+        android:gravity="center_horizontal|top"
+        />
+    <EditText
+        android:id="@+id/left"
+        android:layout_width="65dp"
+        android:layout_height="34dp"
+        android:layout_toEndOf="@+id/time_left_"
+        android:layout_marginTop="207dp"
+        android:gravity="center"
+        android:background="@drawable/inputbox"
+        />
+    <TextView
+        android:id="@+id/people_coun"
+        android:layout_width="183dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="251dp"
+        android:text="@string/people_coun"
+        android:textAppearance="@style/people_coun"
+        android:gravity="center_horizontal|top"
+        />
+    <EditText
+        android:id="@+id/Pcount"
+        android:layout_width="65dp"
+        android:layout_height="34dp"
+        android:layout_toEndOf="@+id/people_coun"
+        android:layout_marginTop="251dp"
+        android:gravity="center"
+        android:background="@drawable/inputbox"
+        />
+
+    <View
+        android:id="@+id/have_to"
+        android:layout_width="269dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="58dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="361dp"
+        android:background="@drawable/have_to"
+        android:alpha="0.2"
+        />
+    <TextView
+        android:id="@+id/you_have_to"
+        android:layout_width="247dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="387dp"
+        android:text="@string/you_have_to"
+        android:textAppearance="@style/you_have_to"
+        android:gravity="center_horizontal|top"
+        />
+    <View
+        android:id="@+id/rectangle_6"
+        android:layout_width="276dp"
+        android:layout_height="73dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="522dp"
+        android:background="@drawable/menubox"
+        />
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_alignStart="@+id/rectangle_6"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="534dp"
+        android:background="@drawable/history" />
+    <View
+        android:id="@+id/rectangle_9"
+        android:layout_width="56dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="530dp"
+        android:background="@drawable/washbox"
+        />
+    <Button
+        android:id="@+id/vector"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_alignEnd="@+id/rectangle_6"
+
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/exit"
+        />
+    <Button
+        android:id="@+id/wash"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="538dp"
+        android:clipToOutline="true"
+        android:background="@drawable/wash"
+        />
+</RelativeLayout>

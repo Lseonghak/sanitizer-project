@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <!-- ShieldSearch 1 -->
+    <ImageView
+        android:id="@+id/shieldsearc"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/covid" />
+
+    <!-- Rectangle 2 -->
+    <ImageView
+        android:id="@+id/rectangle_2"
+        android:layout_width="242dp"
+        android:layout_height="41dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="302dp"
+        android:background="@drawable/input"
+        />
+
+    <EditText
+        android:id="@+id/enter_your_"
+        android:layout_width="242dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="307dp"
+        android:layout_marginEnd="70dp"
+        android:background="@android:color/transparent"
+        android:hint="@string/enter_your_"
+        android:textAppearance="@style/enter_your_" />
+
+
+    <!-- departure -->
+    <ImageView
+        android:id="@+id/departure"
+        android:layout_width="242dp"
+        android:layout_height="41dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="366dp"
+        android:background="@drawable/input"
+        />
+    <EditText
+        android:id="@+id/enter_your_departure"
+        android:layout_width="243dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="70dp"
+        android:background="@android:color/transparent"
+        android:hint="@string/enter_your_departure"
+        android:textAppearance="@style/enter_your_"
+        android:gravity="center_vertical"
+
+
+        />
+
+
+
+    <!-- I got a vaccination over than 2 times. -->
+
+    <TextView
+        android:id="@+id/i_got_a_vac"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="440dp"
+        android:gravity="center_vertical"
+        android:text="@string/i_got_a_vac"
+        android:textAppearance="@style/i_got_a_vac" />
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="440dp"
+        android:layout_alignBottom="@id/i_got_a_vac"
+        android:layout_marginStart="60dp"/>
+
+    <TextView
+        android:id="@+id/i_got_negat"
+        android:layout_width="196dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="470dp"
+        android:gravity="center_vertical"
+        android:text="@string/i_got_negat"
+        android:textAppearance="@style/i_got_negat" />
+
+    <CheckBox
+        android:id="@+id/checkbox2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="470dp"
+        android:layout_alignBottom="@id/i_got_negat"
+        android:layout_marginStart="60dp"/>
+
+    <Button
+        android:id="@+id/summit"
+        android:layout_width="196dp"
+        android:layout_height="41dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="514dp"
+        android:background="@color/button"
+        android:text="@string/submit"
+        android:textAppearance="@style/submit"
+        android:textColor="@color/white" />
+</RelativeLayout>
