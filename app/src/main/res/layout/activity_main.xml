@@ -29,7 +29,7 @@
         />
 
     <EditText
-        android:id="@+id/enter_your_"
+        android:id="@+id/email"
         android:layout_width="242dp"
         android:layout_height="30dp"
         android:layout_marginStart="70dp"
@@ -51,7 +51,7 @@
         android:background="@drawable/input"
         />
     <EditText
-        android:id="@+id/enter_your_departure"
+        android:id="@+id/password"
         android:layout_width="243dp"
         android:layout_height="30dp"
         android:layout_marginStart="70dp"
